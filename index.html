@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="container">
     <header>
         <span class="title">Katik</span> <span class="sub-title">Kalkulator Matematik</span>
     </header>
     <main>
-        <h2 class="welcome">Welcome to Katik</h2>
-        <p class="welcome">Hai Sobat, Selamat Datang di Katik :] <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <div class="welcome">
+            <h2>Welcome to Katik</h2>
+            <p>Hai Sobat, Selamat Datang di Katik :] <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        </div>
         
         <div class="card">
             <div class="card-name">Luas Persegi</div>
@@ -22,7 +25,7 @@
             <div class="kolom-result">
                 <h3>Hitung Luas Persegi</h3>
             <input id="sisi-luas" name="sisi-luas" required>
-            <button type="submit"></button>
+            <button type="submit">Hitung</button>
             <p class="result-luas" id="rumus-luas">L = S x S</p>
             <p class="result-luas" id="perhitungan-luas">L =</p>
             <p class="result-luas" id="perhitungan-luas"></p>
@@ -36,7 +39,7 @@
             <div class="kolom-result">
                 <h3>Hitung Keliling Persegi</h3>
             <input id="sisi-luas" name="sisi-luas" required>
-            <button type="submit"></button>
+            <button type="submit">Hitung</button>
             <p class="result-luas" id="rumus-luas">K = 4 x S</p>
             <p class="result-luas" id="perhitungan-luas">K =</p>
             <p class="result-luas" id="perhitungan-luas"></p>
@@ -44,6 +47,7 @@
             <button class="reset">reset</button>
         </div>
     </main>
+</div>
     <script src="js/script.js"></script>
 </body>
 </html>
