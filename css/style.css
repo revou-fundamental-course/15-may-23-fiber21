@@ -13,3 +13,14 @@ header {
     margin: 0px auto ;
     text-align: center;
 }
+
+span.title {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+span.sub-title {
+    color: rgb(0, 0, 102);
+    font-weight: bold;
+}
