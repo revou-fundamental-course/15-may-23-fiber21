@@ -1,0 +1,8 @@
+/* 1) menambahkan css reset, berfungsi agar margin dan padding kita tidak tercampur dengan margin dan padding bawaan html*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1) menambahkan css reset, berfungsi agar margin dan padding kita tidak tercampur dengan margin dan padding bawaan html*/
+
