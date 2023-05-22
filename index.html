@@ -7,12 +7,13 @@
     <title>Katik</title>
 </head>
 <body>
-    <h1>
+    <header>
         <span class="title">Katik</span> <span class="sub-title">Kalkulator Matematik</span>
-    </h1>
+    </header>
     <main>
         <h2 class="welcome">Welcome to Katik</h2>
         <p class="welcome">Hai Sobat, Selamat Datang di Katik :] <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        
         <div class="card">
             <div class="card-name">Luas Persegi</div>
             <div class="example-square"></div>
@@ -20,12 +21,27 @@
             <div class="kolom-result">
                 <h3>Hitung Luas Persegi</h3>
             <input id="sisi-luas" name="sisi-luas" required>
+            <button type="submit"></button>
             <p class="result-luas" id="rumus-luas">L = S x S</p>
-            <p class="result-luas" id="perhitungan-luas"></p>
+            <p class="result-luas" id="perhitungan-luas">L =</p>
             <p class="result-luas" id="perhitungan-luas"></p>
             </div>
+            <button class="reset">reset</button>
         </div>
-
+        <div class="card">
+            <div class="card-name">Keliling Persegi</div>
+            <div class="example-square"></div>
+            <p class="formula-description">Rumus Keliling Persegi yaitu:<br> <span class="mid">L = 4 x S</span>    <br>Dimana:<br>K = Keliling <br> S = Sisi</p>
+            <div class="kolom-result">
+                <h3>Hitung Keliling Persegi</h3>
+            <input id="sisi-luas" name="sisi-luas" required>
+            <button type="submit"></button>
+            <p class="result-luas" id="rumus-luas">K = 4 x S</p>
+            <p class="result-luas" id="perhitungan-luas">K =</p>
+            <p class="result-luas" id="perhitungan-luas"></p>
+            </div>
+            <button class="reset">reset</button>
+        </div>
     </main>
 </body>
 </html>
