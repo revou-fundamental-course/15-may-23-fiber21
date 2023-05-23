@@ -62,3 +62,14 @@ main {
 .card-name h2 {
     color: white;
 }
+
+.example-square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    position: relative;
+    margin-top: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
