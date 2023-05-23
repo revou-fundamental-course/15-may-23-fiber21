@@ -83,6 +83,7 @@ input {
     margin: 0% 5% 0% 2%;
     border-radius: 5px;
     border: 1px solid gray;
+    padding: 5px;
 }
 
 button.hitung {
