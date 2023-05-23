@@ -81,6 +81,16 @@ main {
 input {
     width: 96%;
     margin: 0% 5% 0% 2%;
+    border-radius: 5px;
+}
+
+button.hitung {
+    margin-top: 20px;
+    background-color: #06f;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .reset {
