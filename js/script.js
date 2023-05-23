@@ -14,3 +14,14 @@ function hitungKeliling() {
     hasil.innerHTML = "<p class='result-keliling' id='rumus-keliling'>K = 4 x S</p> <p class='result-keliling' id='perhitungan-keliling'>K = 4 x " + sisiKeliling + " cm</p> <p class='result-keliling' id='hasil-keliling'> K = "+4 * sisiKeliling+" cm</p>";
 }
 // 1)fungsi ini dibuat terlebih dahulu
+// 3) membuat fungsi reset
+function resetLuas() {
+    const hasil = document.getElementById("inner-luas");
+    hasil.innerHTML = "";
+}
+
+function resetKeliling() {
+    const hasil = document.getElementById("inner-keliling");
+    hasil.innerHTML = "";
+}
+// 3) membuat fungsi reset
