@@ -18,6 +18,7 @@ header {
     margin: 0px auto ;
     text-align: center;
     border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 2px 2px 10px;
 }
 
 span.title {
@@ -41,8 +42,10 @@ main {
     /* margin: 20px 10px 20px 10px; */
     margin: 20px auto ;
     padding: 40px 20px 5px 20px;
+    border: 1px rgba(255,255,255,0.1) solid;
+    box-shadow: rgba(0, 0, 0, 0.05) 2px 2px 10px;
     border-radius: 15px 15px 0px 0px;
-    background-color: white;
+    background-image: linear-gradient(95deg, rgba(255,255,255, 0) 0%, rgba(255,255,255, 0.7) 100%);
 }
 
 .welcome {
@@ -51,6 +54,7 @@ main {
     /* flex-direction: column; */
     text-align: center;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .card {
@@ -58,6 +62,7 @@ main {
     /* padding: 10px; */
     margin: 0px 0px 25px 0px;
     border-radius: 15px 15px 15px 15px;
+    background: #fff;
 }
 
 .card-name {
@@ -128,6 +133,10 @@ button.hitung {
     color: #fff;
     padding: 8px;
     border-radius: 5px;
+}
+
+.inner {
+    margin-left: 12px;
 }
 
 .reset {
