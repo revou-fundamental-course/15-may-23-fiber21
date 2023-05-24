@@ -78,6 +78,17 @@ main {
     
 }
 
+.formula-description {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formula-description span {
+    padding: 10px;
+    text-align: center;
+}
+
 input {
     width: 96%;
     margin: 0% 5% 0% 2%;
