@@ -7,10 +7,6 @@
 }
 /* 1) menambahkan css reset, berfungsi agar margin dan padding kita tidak tercampur dengan margin dan padding bawaan html*/
 
-body {
-    background: linear-gradient(to right, blue, red);
-}
-
 header {
     width: 800px;
     background-color: #06f;
@@ -32,15 +28,16 @@ span.sub-title {
     font-weight: bold;
 }
 
-/* .container {
-    margin: 0px auto;
-    background-color: silver;
-} */
+.container {
+    background: linear-gradient(to right, blue, red);
+    min-width: 880px;
+    height: 100%;
+}
 
 main {
     width: 800px;
-    /* margin: 20px 10px 20px 10px; */
     margin: 20px auto ;
+    margin-bottom: 0px;
     padding: 40px 20px 5px 20px;
     border: 1px rgba(255,255,255,0.1) solid;
     box-shadow: rgba(0, 0, 0, 0.05) 2px 2px 10px;
