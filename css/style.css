@@ -7,7 +7,6 @@
 }
 /* 1) menambahkan css reset, berfungsi agar margin dan padding kita tidak tercampur dengan margin dan padding bawaan html*/
 header {
-    width: 800px;
     background-color: #06f;
     padding: 25px;
     margin: 0px auto ;
@@ -93,6 +92,11 @@ main {
     padding: 2px;
 }
 
+hr {
+    width: 98%;
+    margin: 0% 1% 0% 1% ;
+}
+
 .kolom-result h3 {
     text-align: center;
     padding: 20px;
@@ -107,7 +111,7 @@ input {
 }
 
 button.hitung {
-    margin-top: 25px;
+    margin-top: 30px;
     background-color: #06f;
     border: none;
     color: #fff;
@@ -121,7 +125,7 @@ button.hitung {
     color: #fff;
     border-radius: 5px;
     padding: 8px;
-    margin: 5px;
+    margin: 20px;
     border: none;
 }
 
