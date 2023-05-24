@@ -17,6 +17,7 @@ header {
     padding: 25px;
     margin: 0px auto ;
     text-align: center;
+    border-radius: 0px 0px 15px 15px;
 }
 
 span.title {
@@ -40,6 +41,7 @@ main {
     /* margin: 20px 10px 20px 10px; */
     margin: 20px auto ;
     padding: 40px 20px 5px 20px;
+    border-radius: 15px 15px 0px 0px;
     background-color: white;
 }
 
@@ -55,6 +57,7 @@ main {
     border: 1px solid rgb(130, 130, 255);
     /* padding: 10px; */
     margin: 0px 0px 25px 0px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .card-name {
@@ -63,6 +66,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .card-name h2 {
