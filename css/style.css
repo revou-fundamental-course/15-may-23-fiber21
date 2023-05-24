@@ -6,7 +6,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 /* 1) menambahkan css reset, berfungsi agar margin dan padding kita tidak tercampur dengan margin dan padding bawaan html*/
+
+body {
+    background: linear-gradient(to right, blue, red);
+}
+
 header {
+    width: 800px;
     background-color: #06f;
     padding: 25px;
     margin: 0px auto ;
@@ -24,14 +30,15 @@ span.sub-title {
     font-weight: bold;
 }
 
-.container {
-    width: 800px;
+/* .container {
     margin: 0px auto;
     background-color: silver;
-}
+} */
 
 main {
-    margin: 20px 10px 20px 10px;
+    width: 800px;
+    /* margin: 20px 10px 20px 10px; */
+    margin: 20px auto ;
     padding: 40px 20px 5px 20px;
     background-color: white;
 }
