@@ -95,7 +95,7 @@ main {
 
 .kolom-result h3 {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 input {
@@ -107,11 +107,11 @@ input {
 }
 
 button.hitung {
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: #06f;
     border: none;
     color: #fff;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
 }
 
