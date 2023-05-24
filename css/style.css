@@ -89,6 +89,15 @@ main {
     text-align: center;
 }
 
+.formula-description p {
+    padding: 2px;
+}
+
+.kolom-result h3 {
+    text-align: center;
+    padding: 10px;
+}
+
 input {
     width: 96%;
     margin: 0% 5% 0% 2%;
