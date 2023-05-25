@@ -9,8 +9,9 @@
 
 .container {
     background: linear-gradient(to right, blue, red);
-    min-width: 880px;
+    min-width: 680px;
     height: 100%;
+    
 }
 
 header {
@@ -47,9 +48,7 @@ main {
 }
 
 .welcome {
-    /* display: flex; */
     align-items: center;
-    /* flex-direction: column; */
     text-align: center;
     margin-bottom: 10px;
     color: #fff;
@@ -57,7 +56,6 @@ main {
 
 .card {
     border: 1px solid rgb(130, 130, 255);
-    /* padding: 10px; */
     margin: 0px 0px 25px 0px;
     border-radius: 15px 15px 15px 15px;
     background: #fff;
@@ -133,11 +131,11 @@ button.hitung {
     border-radius: 5px;
 }
 
-.inner {
+.output {
     margin: 10px 0px 0px 12px;
 }
 
-.inner p {
+.output p {
     padding: 5px;
 }
 
@@ -157,10 +155,10 @@ button.hitung {
 
 @media (max-width:808px) {
     header {
-        width: 675px;
+        width: 650px;
     }
 
     main {
-        width: 675px;
+        width: 650px;
     }
 }
