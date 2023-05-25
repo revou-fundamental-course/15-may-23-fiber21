@@ -158,11 +158,11 @@ button.hitung {
 
 @media (max-width:808px) {
     header {
-        width: 610px;
+        width: 600px;
     }
 
     main {
-        width: 610px;
+        width: 600px;
         padding: 40px 0px 5px 0px;
 
     }
