@@ -7,6 +7,12 @@
 }
 /* 1) menambahkan css reset, berfungsi agar margin dan padding kita tidak tercampur dengan margin dan padding bawaan html*/
 
+.container {
+    background: linear-gradient(to right, blue, red);
+    min-width: 880px;
+    height: 100%;
+}
+
 header {
     width: 800px;
     background-color: #06f;
@@ -28,11 +34,6 @@ span.sub-title {
     font-weight: bold;
 }
 
-.container {
-    background: linear-gradient(to right, blue, red);
-    min-width: 880px;
-    height: 100%;
-}
 
 main {
     width: 800px;
@@ -133,7 +134,11 @@ button.hitung {
 }
 
 .inner {
-    margin-left: 12px;
+    margin: 10px 0px 0px 12px;
+}
+
+.inner p {
+    padding: 5px;
 }
 
 .reset {
@@ -148,4 +153,14 @@ button.hitung {
 
 .clear {
     clear: right;
+}
+
+@media (max-width:808px) {
+    header {
+        width: 675px;
+    }
+
+    main {
+        width: 675px;
+    }
 }
