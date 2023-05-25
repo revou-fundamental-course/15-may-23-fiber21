@@ -14,7 +14,7 @@
 }
 
 header {
-    width: 800px;
+    width: 768px;
     background-color: #06f;
     padding: 25px;
     margin: 0px auto ;
@@ -36,7 +36,7 @@ span.sub-title {
 
 
 main {
-    width: 800px;
+    width: 768px;
     margin: 20px auto ;
     margin-bottom: 0px;
     padding: 40px 20px 5px 20px;
@@ -51,6 +51,7 @@ main {
     text-align: center;
     margin-bottom: 10px;
     color: #fff;
+    padding: 10px;
 }
 
 .welcome h2 {
@@ -118,8 +119,8 @@ hr {
 }
 
 input {
-    width: 96%;
-    margin: 0% 5% 0% 2%;
+    width: 94%;
+    margin: 0% 5% 0% 3%;
     border-radius: 5px;
     border: 1px solid gray;
     padding: 5px;
@@ -165,10 +166,6 @@ button.hitung {
         width: 600px;
         padding: 40px 0px 5px 0px;
 
-    }
-
-    .welcome {
-        padding: 10px;
     }
     
     input {
