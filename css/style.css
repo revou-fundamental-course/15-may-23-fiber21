@@ -9,7 +9,7 @@
 
 .container {
     background: linear-gradient(to right, blue, red);
-    min-width: 620px;
+    min-width: 550px;
     height: 100%;
 }
 
@@ -159,13 +159,30 @@ button.hitung {
     clear: right;
 }
 
-@media (max-width:808px) {
+@media (max-width:800px) {
     header {
-        width: 600px;
+        width: 650px;
     }
 
     main {
-        width: 600px;
+        width: 650px;
+        padding: 40px 0px 5px 0px;
+
+    }
+    
+    input {
+        width: 92%;
+        margin: 0% 5% 0% 4%;
+    }
+}
+
+@media (max-width:720px) {
+    header {
+        width: 550px;
+    }
+
+    main {
+        width: 550px;
         padding: 40px 0px 5px 0px;
 
     }
